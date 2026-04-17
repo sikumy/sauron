@@ -76,7 +76,8 @@ Accepted identifiers: sAMAccountName, full DN or SID.
 | `-dc` | Domain controller / IP |
 | `-x` | Target identifier (auto-detected: sAMAccountName, DN, or SID) |
 | `--ssl` | Force LDAPS with automatic fallback |
-| `-s` | Silent mode (suppress banner) |
+| `--no-color` | Disable colored output |
+| `-v` | Verbose mode (show banner) |
 | `--debug` | Detailed logging + request counting |
 
 ### Examples
